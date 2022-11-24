@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C7BCA1;
+}
+
+#Rigister {
+    float: right;
+    margin-top: -140px;
+    margin-right:200px ;
+}
+
+#Login {
+    margin-left: 300px;
+    margin-top: 50px;
+    
+
+}
+
+.vertical {
+    border-left: 2px solid black;
+    height: 100%;
+    position: absolute;
+    margin-top: -180px;
+    left: 50%;
+}
+input:hover {
+    border: 2px solid cornflowerblue;
+
+}
+ button {
+    color: #A3C7D6;
+ }
+ input {
+    border:none ;
+    height:30px ;
+    
+
+    
+   
+ }
+ 
+ i {
+    position: relative;
+    margin-left:-30px ;
+ }

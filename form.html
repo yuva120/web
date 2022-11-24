@@ -4,40 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/Form.css">
+    <script src="https://kit.fontawesome.com/2bf8cb5387.js" crossorigin="anonymous"></script>
     <title>Ravi-Form</title>
 </head>
-<body style="background-color:skyblue ;">
-    <div >
-    <h1>Login</h1>
-    <form action="/" method="post">
-        <label for="email">email</label><br>
-        <input type="email" name="email" id="email"><br>
-        <label for="password">password</label><br>
-        <input type="password" name="password" id="password"><br>
-        <button>Login</button>
+<body >
+   <div class="container">
+    
+    <div id="Login" >
+        <h1>Login</h1>
+        <form action="/" method="post">
+            <label for="email">email</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="password">password</label><br>
+            <div>
+                <input type="password" name="password" id="password">
+            <i class="fa-solid fa-eye"></i><br>
+
+            </div>
+            
+            <button>Login</button>
+        </div>
+        <div class="vertical">
+        <hr>
     </div>
+    
+        </form>
+        <div id="Rigister" >
+        <h2>Register</h2>
+        <form action="/" method="post">
+            <label for="name">name</label><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">email</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="password">password</label><br>
+            <input type="password" name="password" id="password">
+            <i class="fa-solid fa-eye"></i><br>
+            
+            <label for="age">age</label><br>
+            <input type="Radio" name="age" id="age" valu="Above 18">Above 18
+            <input type="radio" name="age" id="age" value="Below 18">Below 18
+            <label for="checkbox">checkbox</label><br>
+            <input type="Radio" name="checkbox" id="checkbox" value="I Agree">I Agree
+            <button>Register</button>
+    
+    
+        </form>
+    </div>
+   </div>
+    
+    
+    
 
-    </form>
-    <div  >
-    <h2>Register</h2>
-    <form action="/" method="post">
-        <label for="name">name</label><br>
-        <input type="text" name="name" id="name"><br>
-        <label for="email">email</label><br>
-        <input type="email" name="email" id="email"><br>
-        <label for="password">password</label><br>
-        <input type="password" name="password" id="password"><br>
-        
-        <label for="age">age</label><br>
-        <input type="Radio" name="age" id="age" valu="Above 18">Above 18
-        <input type="radio" name="age" id="age" value="Below 18">Below 18
-        <label for="checkbox">checkbox</label><br>
-        <input type="Radio" name="checkbox" id="checkbox" value="I Agree">I Agree
-        <button>Register</button>
+    
 
-
-    </form>
-</div>
     
 </body>
 </html>
