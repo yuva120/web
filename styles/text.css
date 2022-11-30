@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .container {
+    height: 1000px;
+    width: 1000px;
+    margin: 10px;
+    
+   
+    
+
+
+ }
+ .blue {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+ }
+
+  .green {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    
+   
+  }
+
+  .yellow {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    
+   
+    
+  }
+
+  .brown {
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    
+    
+    
+  }
+
+  .black{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    
+    
+    
+  }
+
+  .pink {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    
+    
+
+  }
+
+  @media screen and (max-width:768px){
+    .blue{
+    float: none;
+
+    }
+    .green{
+      float: none;
+
+    }
+    .yellow{
+      float: none;
+
+    }
+    .brown{
+      float: none;
+
+    }
+    .black{
+      float: none;
+
+    }
+    .pink{
+      float: none;
+
+    }
+    
+    
+  }
+ 
