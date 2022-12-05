@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+input {
+    width: 152px;
+    padding: 8px;
+    font-weight: bolder;
+}
+body {
+    
+    background-color: #46C2CB;
+}
+.container {
+    
+ padding: 24px 38%;
+ margin-top: 10%;
+}
+h1{
+    margin: 5px;
+    color: #6D67E4;
+}
+table {
+    text-align: center;
+}
+.btn,.btn1{
+    width: 35px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color:#F2F7A1 ;
+    height: 30px;
+}
+
+.btn1{
+    width: 75px;
+}
+
+

@@ -43,6 +43,74 @@ let y=8;
  console.log(a--); //7
  console.log(--a); //5
  console.log(a);
+
+ //switch case
+ let day=6;
+    switch (day) {
+        case  day=0:
+          console.log("monday");
+      break;
+        case day=1:
+            console.log("tuesday");
+        break;   
+        case day=2:
+            console.log("wednesday");    
+        break;
+        case day=3:
+            console.log("thursday");
+            break;
+            case day=4:
+                console.log("friday");
+                break;
+            case day=6:
+                console.log("saturday");
+            break;
+            case day=7:
+                console.log("sunday");       
+          default:
+                console.log("something write to get wrong");
+    }
+    
+    //for loop
+    let n=10;
+   for(let n=0;n<=10;n++){
+     console.log(n);
+   }
+
+   // while loop
+   let i= 0;
+while (i<3) {
+  i++;
+}
+console.log(i);
+
+ //do-while loop
+ let number=0;
+do {
+  i+=1;
+    
+} while (number>0&&number<5){
+  number--;
+}
+  console.log(number);
+
+  //for each
+  const array1 = ['a', 'b', 'c'];
+array1.forEach(element => console.log(element));
+
+ //for in-loop
+ const object={a:1,b:2,c:3};
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`);
+
+ }
+
+ //for of-loop
+ const array=['p','q','r'];
+  for (const element of array) {
+    console.log(element);
+  }
+
  
 
  
