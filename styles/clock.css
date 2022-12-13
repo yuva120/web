@@ -1,0 +1,13 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 150px;
+    width:200px ;
+    background-color: aquamarine;
+    margin-left: 45vw;
+    margin-top: 45vh;
+}
