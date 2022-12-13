@@ -38,4 +38,11 @@ table {
     width: 75px;
 }
 
+.wrapper {
+    background-color: black;
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
 
